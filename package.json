@@ -1,0 +1,23 @@
+{
+  "description": "whatsapp pair code generator by ruto-beast",
+  "main": "./index.js",
+  "engines": {
+    "npm": ">=10.8.2",
+    "node": ">=22.7.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.17",
+    "awesome-phonenumber": "^6.10.0",
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "path": "^0.12.7",
+    "phone": "3.1.50",
+    "pino": "^9.3.2",
+    "qrcode": "^1.5.4",
+    "vaultx-sdk": "^1.0.4"
+  }
+}
